@@ -18,3 +18,5 @@ Ry = [cos(ry) 0 -sin(ry);
 Rz = [cos(rz) sin(rz) 0;
      -sin(rz) cos(rz) 0;
           0       0     1];
+
+R = Rz*Ry*Rx;
