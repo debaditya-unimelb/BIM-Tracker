@@ -4,3 +4,5 @@ This is a MATLAB implementaton of BIM-Tracker: A model-based visual tracking usi
 The aux_data_real.mat file contain the image edge files and visible edges of the BIM in the field-of-view of the camera that are being used for matching.
 
 Run the Demo.m file for one-click demostration on real data. Will upload the script for synthetic data as well. 
+
+[![Watch the video](https://img.youtube.com/vi/cq7mk4mfdRA/maxresdefault.jpg)](https://youtu.be/cq7mk4mfdRA)
