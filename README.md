@@ -3,6 +3,8 @@ This is a MATLAB implementaton of "BIM-Tracker: A model-based visual tracking ap
 
 The aux_data_real.mat file contain the image edge files that were extracted by Canny edge detector and visible edges of the BIM in the field-of-view of the camera that are being used for matching. The structure of the visible edges are in the following order of [lineId, X1, Y1, Z1, X2, Y2, Z2], containing the XYZ locations of two endpoints. 
 
-Run the Demo.m file for one-click demostration on real data. Below is a link to a Youtube video demostrating the approach.
+Run the Demo.m file for one-click demostration on real data with default settings. For running the demo without visualisation of the estimated camera pose, set the attribute "visualiseFrame" to false. To disable the online trajectory visualisation option set the attribute "visualiseTrajectory" to fasle. Setting "AccurateMode" to true will increase the ransac samples to guarantee solution and will override maximum MSAC runs settings. Setting "FastMode" to true will allow jump out loop if required confidence reached and reduce the number of loop iterations. 
+
+Below is a link to a Youtube video demostrating the approach.
 
 [![Watch the video](https://img.youtube.com/vi/cq7mk4mfdRA/maxresdefault.jpg)](https://youtu.be/cq7mk4mfdRA)
