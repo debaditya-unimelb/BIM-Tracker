@@ -6,7 +6,7 @@ This is a MATLAB implementaton of our upcoming paper "**BIM-Tracker: A model-bas
 ## Running the demo
 Run the Demo.m file for one-click demostration on real data with default settings. For running the demo without visualisation of the estimated camera pose, set the attribute `visualiseFrame = false`. To disable the online trajectory visualisation option set the attribute `visualiseTrajectory = fasle`. Setting `AccurateMode = true` will increase the ransac samples to guarantee solution and will override maximum MSAC runs settings. Setting `FastMode = true` will allow jump out loop if required confidence reached and reduce the number of loop iterations for faster convergence.
 
-## Youtube video demostration
+## YouTube video demostration - Click below image
 [![Watch the video](https://img.youtube.com/vi/cq7mk4mfdRA/maxresdefault.jpg)](https://youtu.be/cq7mk4mfdRA)
 
 ## What will be loaded
