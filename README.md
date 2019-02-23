@@ -23,7 +23,7 @@ To test with you own data, it is required to generate the edge images and the vi
   - The script will generate three text files containing the approximate trajectory, all the vertices of the BIM and the visible vertices per frame.
 - Use the MATLAB script in the **extras** folder called `edges_with_vertices.m`to converts the text files generated into visible edges for each frame.
 
-An example Blender file containing the simplified BIM, an approximate trajectory for the demo and the camera parameters is present in the **extras** folder in the name of `BlenderExample.blend`. If you use the BIM or the IFC file kindly cite our work:
+An example Blender file containing the simplified BIM, an approximate trajectory for the demo and the camera parameters is present in the **extras** folder in the name of `BlenderExample.blend`. If you use the IFC model kindly cite our work:
 
 ```
 @article{khoshelham2017isprs,
