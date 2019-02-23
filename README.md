@@ -25,6 +25,7 @@ To test with you own data, it is required to generate the edge images and the vi
 - Use the MATLAB script in the **extras** folder called `edges_with_vertices.m`to converts the text files generated into visible edges for each frame.
 
 An example Blender file containing the simplified BIM, an approximate trajectory for the demo and the camera parameters is present in the **extras** folder in the name of `BlenderExample.blend`. If you use the BIM or the IFC file kindly cite our work:
-"**Khoshelham, K., Vilari˜no, L. D., Peter, M., Kang, Z. and Acharya, D., 2017. The ISPRS benchmark on indoor modelling. International Archives of the Photogrammetry, Remote Sensing & Spatial Information Sciences, Vol. XLII-2/W7, pp. 367–372**"
+
+"*Khoshelham, K., Vilari˜no, L. D., Peter, M., Kang, Z. and Acharya, D., 2017. The ISPRS benchmark on indoor modelling. International Archives of the Photogrammetry, Remote Sensing & Spatial Information Sciences, Vol. XLII-2/W7, pp. 367–372*"
 
 - [ ] Folder extras will be updated soon
