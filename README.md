@@ -25,6 +25,14 @@ To test with you own data, it is required to generate the edge images and the vi
 
 An example Blender file containing the simplified BIM, an approximate trajectory for the demo and the camera parameters is present in the **extras** folder in the name of `BlenderExample.blend`. If you use the BIM or the IFC file kindly cite our work:
 
-"*Khoshelham, K.,  Vilari{\~n}o, L. D., Peter, M., Kang, Z. and Acharya, D., 2017. The ISPRS benchmark on indoor modelling. International Archives of the Photogrammetry, Remote Sensing & Spatial Information Sciences, Vol. XLII-2/W7, pp. 367–372*"
+> @article{khoshelham2017isprs,
+  title={THE ISPRS BENCHMARK ON INDOOR MODELLING.},
+  author={Khoshelham, Kourosh and Vilari{\~n}o, L D{\'\i}az and Peter, Michael and Kang, Zhizhong and Acharya, Debaditya},
+  journal={International Archives of the Photogrammetry, Remote Sensing \& Spatial Information Sciences},
+  volume={XLII-2/W7},
+  year={2017}
+  pages={367-372},
+  doi={https://doi.org/10.5194/isprs-archives-XLII-2-W7-367-2017}, 
+  }
 
 - [ ] Folder extras will be updated soon
