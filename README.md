@@ -36,5 +36,3 @@ An example Blender file containing the simplified BIM, an approximate trajectory
   doi={https://doi.org/10.5194/isprs-archives-XLII-2-W7-367-2017}, 
 }
 ```
-
-- [ ] Folder extras will be updated soon
