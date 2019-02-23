@@ -9,7 +9,7 @@ Run the `Demo.m` file for one-click demostration on real data with default setti
 ## YouTube video demostration - Click below image
 [![Watch the video](https://img.youtube.com/vi/cq7mk4mfdRA/maxresdefault.jpg)](https://youtu.be/cq7mk4mfdRA)
 
-## What will be loaded
+## What will be loaded?
 The `aux_data_real.mat` file contain the image edge files that were extracted by Canny edge detector and visible edges of the BIM in the field-of-view of the camera that are being used for matching. The data structure of the visible edges are in the following order of `[lineId, X1, Y1, Z1, X2, Y2, Z2]`, containing the XYZ locations of two endpoints.
 
 ## Using you own data
