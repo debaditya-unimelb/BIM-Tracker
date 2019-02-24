@@ -23,7 +23,7 @@ To test with you own data, it is required to generate the edge images and the vi
   - The script will generate three text files containing the approximate trajectory, all the vertices of the BIM and the visible vertices per frame.
 - Use the MATLAB script in the **extras** folder called `edges_with_vertices.m`to converts the text files generated into visible edges for each frame.
 
-The Ray Tracing algorithm of Blender misses to detect some of the vertices. Therefore, to improve the detections, the script called `addCubes.py` can be executed in object mode of Blender to add micro cubes at each vertex. The script called `deleteCubes.py` can be used to remove the cubes after the rendering for the whole trajectory is done. For more information on the script visit [here](https://blender.stackexchange.com/questions/77607/how-to-get-the-3d-coordinates-of-the-visible-vertices-in-a-rendered-image-in-ble).
+The Ray Tracing algorithm of Blender misses to detect some of the vertices. Therefore, to improve the detections, the script called `addCubes.py` can be executed in object mode of Blender to add micro cubes at each vertex, prior to executing the script `edge_render.py`. The script called `deleteCubes.py` can be used to remove the cubes after the rendering for the whole trajectory is done. For more information on the script visit [here](https://blender.stackexchange.com/questions/77607/how-to-get-the-3d-coordinates-of-the-visible-vertices-in-a-rendered-image-in-ble).
 
 An example Blender file containing the simplified BIM, an approximate trajectory for the demo and the camera parameters is present in the **extras** folder in the name of `BlenderExample.blend`. If you use the IFC model kindly cite our work:
 
