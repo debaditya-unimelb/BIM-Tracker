@@ -1,7 +1,19 @@
 # BIM-Tracker
-This is a MATLAB implementaton of our upcoming paper "**BIM-Tracker: A model-based visual tracking approach for indoor localisation using a 3D building model**". The provided code is in testing phase and any suggestions regarding improvement and optimisation is welcomed. 
+This is a MATLAB implementaton of our paper "**BIM-Tracker: A model-based visual tracking approach for indoor localisation using a 3D building model**". The provided code is in testing phase and any suggestions regarding improvement and optimisation is welcomed. 
 
-- [ ] Will update the link to the paper and bibliography.
+'''
+@article{ACHARYA2019157,
+title = "BIM-Tracker: A model-based visual tracking approach for indoor localisation using a 3D building model",
+journal = "ISPRS Journal of Photogrammetry and Remote Sensing",
+volume = "150",
+pages = "157 - 171",
+year = "2019",
+issn = "0924-2716",
+doi = "https://doi.org/10.1016/j.isprsjprs.2019.02.014",
+url = "http://www.sciencedirect.com/science/article/pii/S092427161930053X",
+author = "Debaditya Acharya and Milad Ramezani and Kourosh Khoshelham and Stephan Winter",
+}
+'''
 
 ## Running the demo
 Run the `Demo.m` file for one-click demostration on real data with default settings. For running the demo without visualisation of the estimated camera pose, set the attribute `visualiseFrame = false`. To disable the online trajectory visualisation option set the attribute `visualiseTrajectory = fasle`. Setting `AccurateMode = true` will increase the MSAC samples to guarantee solution and will override maximum MSAC runs settings. Setting `FastMode = true` will allow jump out loop if required confidence reached and reduce the number of loop iterations for faster convergence.
