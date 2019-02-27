@@ -1,5 +1,5 @@
 # BIM-Tracker
-This is a MATLAB implementaton of our paper "**BIM-Tracker: A model-based visual tracking approach for indoor localisation using a 3D building model**". The provided code is in testing phase and any suggestions regarding improvement and optimisation is welcomed. 
+This is a MATLAB implementaton of our paper "**BIM-Tracker: A model-based visual tracking approach for indoor localisation using a 3D building model**". The provided code is in testing phase and any suggestions regarding improvement and optimisation is welcomed. Please cite our paper if you use the code. 
 
 ```
 @article{ACHARYA2019157,
