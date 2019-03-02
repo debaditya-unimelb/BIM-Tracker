@@ -41,11 +41,11 @@ An **example Blender file** containing the simplified BIM, an approximate trajec
 
 ```
 @article{khoshelham2017isprs,
-  title={THE ISPRS BENCHMARK ON INDOOR MODELLING.},
+  title={{THE ISPRS BENCHMARK ON INDOOR MODELLING}.},
   author={Khoshelham, Kourosh and Vilari{\~n}o, L D{\'\i}az and Peter, Michael and Kang, Zhizhong and Acharya, Debaditya},
   journal={International Archives of the Photogrammetry, Remote Sensing \& Spatial Information Sciences},
   volume={XLII-2/W7},
-  year={2017}
+  year={2017},
   pages={367-372},
   doi={https://doi.org/10.5194/isprs-archives-XLII-2-W7-367-2017}, 
 }
