@@ -1,3 +1,6 @@
+% You can play with the Canny edge detector paramters to generate a suitable edge image for your own dataset.
+% Place the generated "aux_data_real.mat" file under the main folder that contains the "Demo.m" script.
+
 clear;
 load('visible_edges.mat');
 imageNames = dir(fullfile('C:\Users\acharyad\Desktop\Research\Video\cases\640x480-56D-RealData_new\sequence','*.png'));
